@@ -1,0 +1,26 @@
+{
+  "name": "cs_client",
+  "version": "1.0.8",
+  "description": "Testing ChatScrip tcp requests",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "o.khytrov",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^20.0.0",
+    "electron-builder": "^23.3.3"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.1"
+  },
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  }
+}
