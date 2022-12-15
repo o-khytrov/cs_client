@@ -50,6 +50,12 @@ jQuery(function () {
         wating = true;
     });
 
+    $("#btn_init").on('click', function(){
+        $("#user").val(generateGuid())
+        request_editor.setText("[:init type: FunnelQuestion category: computer source: sip]");
+
+    })
+
 });
 
 function generateGuid() {
